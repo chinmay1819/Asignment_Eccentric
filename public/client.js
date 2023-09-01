@@ -81,10 +81,6 @@ socket.on('message', msg => {
                   icon: '/chat2.png' // Path to the notification icon
               });
   
-              // Handle notification click event if needed
-              notification.onclick = () => {
-                  // Do something when the user clicks the notification
-              };
           }
       }
   }
